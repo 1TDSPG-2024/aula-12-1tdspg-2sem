@@ -1,3 +1,5 @@
+import Cabecalho from "@/components/Cabecalho/Cabecalho";
+import Rodape from "@/components/Rodape/Rodape";
 import { Metadata } from "next";
 import React from "react";
 
@@ -20,7 +22,9 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
   return(
     <html>
       <body>
+        <Cabecalho/>
         {children}
+        <Rodape/>
       </body>
     </html>
   )

@@ -1,7 +1,7 @@
 export default function page() {
   return(
     <div>
-      page
+      Welcome to my home page
     </div>
   )
 }
