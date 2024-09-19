@@ -1,12 +1,12 @@
-import Menu from "../Menu/Menu"
+import Menu from "../Menu/Menu";
 
 function Cabecalho() {
-  return(
+  return (
     <header>
-    <h1>Cabecalho</h1>
-    <Menu/>
+      <h1>Cabecalho</h1>
+      <Menu />
     </header>
-  )
+  );
 }
 
-export default Cabecalho
+export default Cabecalho;
