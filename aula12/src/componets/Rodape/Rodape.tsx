@@ -3,7 +3,7 @@ import Link from "next/link"
 function Rodape() {
   return(
     <footer>
-    <p>Desenvoldio por <Link href="...">Rei Luizinho</Link></p>
+    <p>Desenvolvido por <Link href="...">Rei Luizinho</Link></p>
     </footer>
   )
 }
